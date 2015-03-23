@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+		<![CDATA[
+/* ${1:procedure}
+Description:${2:Null} */
+procedure ${1:ProcedureName}:
+	define input parameter ${3:myparametter} as ${4:character}.
+	define output parameter ${5:ret} as ${6:logical}.
+	${7:/* body */}
+end procedure.
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pro</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.abl</scope>
+	<description>Procedure</description>
+</snippet>
