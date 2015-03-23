@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{mfdtitle.i}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mfd</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.abl</scope>
+    <description>{mfdtitle.i}</description>
+</snippet>
