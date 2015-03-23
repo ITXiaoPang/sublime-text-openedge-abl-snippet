@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+		<![CDATA[
+define variable my${1:VariableName} ${2:like} ${3:VariableType}.
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>def</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.abl</scope>
+	<description>Define Variable</description>
+</snippet>
