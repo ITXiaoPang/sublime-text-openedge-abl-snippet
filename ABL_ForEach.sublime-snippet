@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+		<![CDATA[
+for each ${1:TableName}_${2:mstr} no-lock
+where ${1:TableName}_domain = ${3:global_domain}
+and ${1:TableName}_${4:Field} = ${5:Condition}
+:
+	${6}
+end.
+/* release ${1:TableName}_${2:mstr}. */
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>for</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.abl</scope>
+	<description>for each</description>
+</snippet>
