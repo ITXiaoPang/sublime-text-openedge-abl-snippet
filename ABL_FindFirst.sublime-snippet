@@ -1,0 +1,23 @@
+<snippet>
+	<content>
+		<![CDATA[
+find first ${1:code}_${2:mstr} no-lock
+where ${1:code}_domain = ${3:global_domain}
+and ${1:code}_${4:fldname} = ${5:Condition}
+no-error.
+if available ${1:code}_${2:mstr} then
+do:
+	
+end.
+else do:
+	
+end.
+/* release ${1:code}_${2:mstr}. */
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>find</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.abl</scope>
+	<description>find first</description>
+</snippet>
